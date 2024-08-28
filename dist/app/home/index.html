@@ -40,7 +40,8 @@
         <meta name=google-site-verification content=tu_codigo_de_verificacion>
         <link rel=preconnect href=https://fonts.googleapis.com> <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&amp;display=swap" rel=stylesheet>
-        <link href=../../scss/main.44aa78318698729a6307.css rel=stylesheet>
+        <link href=https://unpkg.com/aos@2.3.4/dist/aos.css> <link href=../../scss/vendors~main.e16b36ff7d6731a7a38d.css rel=stylesheet>
+        <link href=../../scss/main.6cf542768a5d1fb422fa.css rel=stylesheet>
     </head>
 
     <body>
@@ -127,28 +128,11 @@
                             <path d="M4.83574 12.3295L5.31889 12.6113C6.12606 13.0819 7.0434 13.3333 8.00067 13.3333C10.9462 13.3333 13.334 10.9455 13.334 7.99992C13.334 5.0544 10.9462 2.66659 8.00067 2.66659C5.05513 2.66659 2.66732 5.0544 2.66732 7.99992C2.66732 8.95745 2.9188 9.87512 3.38977 10.6825L3.67136 11.1651L3.2357 12.7662L4.83574 12.3295ZM1.33677 14.6666L2.23808 11.3543C1.66329 10.369 1.33398 9.22292 1.33398 7.99992C1.33398 4.31802 4.31875 1.33325 8.00067 1.33325C11.6825 1.33325 14.6673 4.31802 14.6673 7.99992C14.6673 11.6818 11.6825 14.6666 8.00067 14.6666C6.77807 14.6666 5.63234 14.3375 4.64724 13.7631L1.33677 14.6666ZM5.59488 4.87214C5.68413 4.86587 5.77368 4.86491 5.86306 4.86927C5.89916 4.87164 5.9351 4.87581 5.97106 4.87996C6.07723 4.89222 6.19398 4.95689 6.23324 5.04588C6.43212 5.49683 6.62509 5.95035 6.81213 6.40634C6.8534 6.507 6.82853 6.63747 6.75 6.76372C6.71013 6.82845 6.64752 6.91925 6.57498 7.01212C6.49959 7.10858 6.33732 7.28598 6.33732 7.28598C6.33732 7.28598 6.27158 7.36478 6.29636 7.46285C6.30602 7.49992 6.3368 7.55392 6.36472 7.59932C6.38018 7.62445 6.39453 7.64692 6.40384 7.66245C6.57446 7.94732 6.8038 8.23612 7.08393 8.50765C7.1642 8.58545 7.24206 8.66485 7.3258 8.73858C7.638 9.01385 7.9912 9.23878 8.37266 9.40538L8.37606 9.40692C8.4324 9.43119 8.46133 9.44445 8.5438 9.47945C8.5854 9.49705 8.62793 9.51225 8.6716 9.52378C8.6874 9.52792 8.7036 9.53025 8.71986 9.53138C8.82766 9.53785 8.89 9.46872 8.9166 9.43692C9.39893 8.85259 9.44306 8.81445 9.4464 8.81472V8.81578C9.5098 8.74898 9.60946 8.72578 9.6984 8.73125C9.739 8.73372 9.7794 8.74152 9.81633 8.75838C10.1709 8.92012 10.7505 9.17239 10.7505 9.17239L11.1382 9.34665C11.2031 9.37798 11.2624 9.45179 11.2653 9.52352C11.267 9.56812 11.2718 9.64012 11.2559 9.77185C11.235 9.94432 11.1825 10.152 11.1304 10.2608C11.0937 10.3371 11.0463 10.4049 10.9911 10.4622C10.9162 10.5399 10.8606 10.5871 10.7706 10.6542C10.7158 10.695 10.6874 10.7142 10.6874 10.7142C10.5948 10.7726 10.5426 10.8018 10.4323 10.8605C10.2607 10.9519 10.0711 11.0045 9.87686 11.0145C9.75306 11.0208 9.6296 11.0297 9.50593 11.0231C9.50046 11.0227 9.12713 10.9654 9.12713 10.9654C8.1792 10.7161 7.30253 10.249 6.56689 9.60125C6.41648 9.46885 6.277 9.32558 6.13462 9.18385C5.54192 8.59378 5.09321 7.95752 4.82112 7.35565C4.68695 7.05885 4.60199 6.74099 4.60065 6.41391C4.59819 6.00929 4.73066 5.61539 4.97712 5.29449C5.02571 5.23123 5.07182 5.16562 5.15139 5.09049C5.23565 5.01093 5.28928 4.96821 5.34704 4.93866C5.42404 4.89927 5.50862 4.8782 5.59488 4.87214Z" fill=#FFFFFF></path>
                         </svg>Hablar ahora</a>
                 </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const currentPath = window.location.pathname;
-                        const currentHash = window.location.hash;
-                        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-
-                        navLinks.forEach(link => {
-                            const href = link.getAttribute('href');
-                            if (href === currentPath || href === currentHash) {
-                                link.classList.add('active');
-                            } else {
-                                link.classList.remove('active');
-                            }
-                        });
-                    });
-
-                </script>
             </nav>
             <section class="container-fluid bg-secondary py-11" id=inicio style="background-image: url('../../assets/images/above-the-fold.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
                 <div class="container text-center">
                     <div class=row>
-                        <div class=col>
+                        <div class=col data-aos=fade-up>
                             <h1 class=text-white>Nos especializamos en manejar inversiones en la bolsa de USA</h1>
                             <p class="fs-4 text-white mb-6">Atendemos a individuos de alto patrimonio, endowments universitarios y grandes empresas</p><a class="btn btn-primary mb-11" href=#servicios>Servicios</a>
                         </div>
@@ -188,7 +172,7 @@
                         </div>
                     </div>
                     <div class=row>
-                        <div class="col-lg-6 order-1 order-lg-0"><img class="img-fluid inverti__img mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza@2x.png 2x" alt="Imagen representativa de Invertí con confianza"></div>
+                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid inverti__img mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza@2x.png 2x" alt="Imagen representativa de Invertí con confianza"></div>
                         <div class="col-lg-6 order-0 order-lg-1">
                             <p class="text-tertiary fw-bold">| Sobre Nosotros</p>
                             <h3>Estamos regulados por la FSC de BVI como Approved Investment Manager</h3>
@@ -227,7 +211,7 @@
                             <h3>Descubrí por qué somos la elección confiable para gestionar tu patrimonio con seguridad y excelencia</h3>
                         </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3" style="--bs-gutter-y: 2rem;">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3" style="--bs-gutter-y: 2rem;" data-aos=slide-up>
                         <div class=col>
                             <div class="card h-100">
                                 <div class=card-body>
@@ -312,7 +296,7 @@
             <section class="container-fluid bg-secondary py-11" style="background-image: url('../../assets/images/mercado.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
                 <div class="container text-center">
                     <div class=row>
-                        <div class=col>
+                        <div class=col data-aos=fade-up>
                             <h2 class=text-white>"En el mercado, quien tiene mejores herramientas está mejor posicionado para ganar”</h2>
                             <p class="fs-4 text-white mb-0">Combinamos distintas estrategias y técnicas para el armado de portafolios eficientes que cumplan con las necesidades de retorno y riesgo de nuestros clientes</p>
                         </div>
@@ -322,7 +306,7 @@
             <section class="container-fluid py-11" id=servicios>
                 <div class=container>
                     <div class="row pb-11">
-                        <div class="col-lg-6 order-1 order-lg-0"><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios@2x.png 2x" alt="Imagen representativa de Estadisticas"></div>
+                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios@2x.png 2x" alt="Imagen representativa de Estadisticas"></div>
                         <div class="col-lg-6 order-0 order-lg-1">
                             <p class="text-tertiary fw-bold">| Servicios</p>
                             <h3>Planificación y gestión de patrimonio para hacer crecer tus activos</h3>
@@ -346,7 +330,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class=row style="--bs-gutter-y: 2rem;">
+                    <div class=row style="--bs-gutter-y: 2rem;" data-aos=slide-up data-aos-duration=1200>
                         <div class="col-12 col-lg"><img class="d-flex mx-auto mb-3" width=64 height=64 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-patrimonio.png srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-patrimonio.png, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-patrimonio@2x.png 2x" alt="Icono representativo de Alto Patrimonio Neto">
                             <h5 class="lh-1 text-center">Alto Patrimonio Neto</h5>
                             <ul class=mb-0>
@@ -399,7 +383,7 @@
                                 <p class=ms-3>Un portafolio moderado equilibra rendimientos y riesgos. Balancea la asignación de renta fija (entre 40% y 65%) y variable, según el perfil de riesgo del cliente y el contexto de mercado.</p>
                             </blockquote>
                         </div>
-                        <div class=col-lg-8><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo@2x.png 2x" alt="Imagen representativa de Portafolio Modelo"></div>
+                        <div class=col-lg-8 data-aos=slide-left><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo@2x.png 2x" alt="Imagen representativa de Portafolio Modelo"></div>
                     </div>
                 </div>
             </section>
@@ -423,8 +407,6 @@
                                             label: "Agendar una cita",
                                             target,
                                         });
-
-                                        // Usar un retraso fijo para asegurar que el botón esté disponible
                                         setTimeout(function() {
                                             const button = document.querySelector('button[aria-label="Agendar una cita"]');
                                             if (button) {
@@ -435,13 +417,13 @@
                                                 button.style.borderRadius = '56px';
                                                 button.style.border = 'none';
                                             }
-                                        }, 1000); // Espera 3 segundos
+                                        }, 1000);
                                     });
                                 })();
 
                             </script>
                         </div>
-                        <div class=col-lg-7></div>
+                        <div class=col-lg-7 data-aos=slide-left></div>
                     </div>
                 </div>
             </section>
@@ -553,4 +535,4 @@
                     </svg></a></div>
         </main>
         <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js> </script> <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js integrity=sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy crossorigin=anonymous></script>
-        <script type=text/javascript src=../../vendors~main.ddd51dc75c283bb0f31e.bundle.js> </script> <script type=text/javascript src=../../main.b9d015f8cf3f30c69e98.bundle.js> </script> </body> </html>
+        <script type=text/javascript src=../../vendors~main.23fe923d86ed4a1142d8.bundle.js> </script> <script type=text/javascript src=../../main.fd8d7f21929d37c9f541.bundle.js> </script> </body> </html>
