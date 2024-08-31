@@ -40,8 +40,8 @@
         <meta name=google-site-verification content=tu_codigo_de_verificacion>
         <link rel=preconnect href=https://fonts.googleapis.com> <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&amp;display=swap" rel=stylesheet>
-        <link href=https://unpkg.com/aos@2.3.4/dist/aos.css> <link href=../../scss/vendors~main.e16b36ff7d6731a7a38d.css rel=stylesheet>
-        <link href=../../scss/main.6cf542768a5d1fb422fa.css rel=stylesheet>
+        <link href=https://unpkg.com/aos@2.3.4/dist/aos.css> <link href=scss/vendors~main.css rel=stylesheet>
+        <link href=scss/main.css rel=stylesheet>
     </head>
 
     <body>
@@ -112,12 +112,12 @@
                         </svg></button>
                     <div class="collapse navbar-collapse justify-content-center" id=navbarText>
                         <ul class=navbar-nav>
-                            <li class=nav-item><a class="nav-link text-white" href=#inicio>Inicio</a></li>
-                            <li class=nav-item><a class="nav-link text-white" href=#nosotros>Nosotros</a></li>
-                            <li class=nav-item><a class="nav-link text-white" href=#por-que-ADI>Por qué ADI</a></li>
-                            <li class=nav-item><a class="nav-link text-white" href=#servicios>Servicios</a></li>
-                            <li class=nav-item><a class="nav-link text-white" href=#caso-real>Casos real</a></li>
-                            <li class=nav-item><a class="nav-link text-white" href=#agendar-cita>Agendar cita</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#inicio data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Inicio</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#nosotros data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Nosotros</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#por-que-ADI data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Por qué ADI</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#servicios data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Servicios</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#caso-real data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Casos real</a></li>
+                            <li class=nav-item><a class="nav-link text-white" href=#agendar-cita data-bs-toggle=collapse data-bs-target=.navbar-collapse.show>Agendar cita</a></li>
                         </ul>
                         <div class="d-flex d-lg-none mt-5"><a class="btn btn-sm btn-primary" href=https://www.instagram.com/atmseguros/ title="Ir a Instagram" target=_blank role=button><svg width=24 height=24 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg aria-hidden=true>
                                     <path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z" fill=#fefefe></path>
@@ -129,7 +129,7 @@
                         </svg>Hablar ahora</a>
                 </div>
             </nav>
-            <section class="container-fluid bg-secondary py-11" id=inicio style="background-image: url('../../assets/images/above-the-fold.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
+            <section class="container-fluid bg-secondary py-11" id=inicio style="background-image: url('../assets/images/above-the-fold.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
                 <div class="container text-center">
                     <div class=row>
                         <div class=col data-aos=fade-up>
@@ -141,7 +141,7 @@
             </section>
             <section class="container-fluid py-11" id=nosotros>
                 <div class=container>
-                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 pb-11" style="--bs-gutter-y: 2rem; margin-top:-12rem">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 pb-11 d-none d-lg-flex" style="--bs-gutter-y: 2rem; margin-top:-12rem">
                         <div class=col>
                             <div class="card shadow">
                                 <div class="card-body text-center"><img class=mb-3 width=64 height=64 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-experiencia.png srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-experiencia.png, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/icon-experiencia@2x.png 2x" alt="Icono representativo de Experiencia">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class=row>
-                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid inverti__img mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza@2x.png 2x" alt="Imagen representativa de Invertí con confianza"></div>
+                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid inverti__img mt-6 mt-lg-0" width=632 height=800 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/inverti-con-confianza@2x.png 2x" alt="Imagen representativa de Invertí con confianza"></div>
                         <div class="col-lg-6 order-0 order-lg-1">
                             <p class="text-tertiary fw-bold">| Sobre Nosotros</p>
                             <h3>Estamos regulados por la FSC de BVI como Approved Investment Manager</h3>
@@ -293,7 +293,7 @@
                     </div>
                 </div>
             </section>
-            <section class="container-fluid bg-secondary py-11" style="background-image: url('../../assets/images/mercado.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
+            <section class="container-fluid bg-secondary py-11" style="background-image: url('../assets/images/mercado.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
                 <div class="container text-center">
                     <div class=row>
                         <div class=col data-aos=fade-up>
@@ -306,7 +306,7 @@
             <section class="container-fluid py-11" id=servicios>
                 <div class=container>
                     <div class="row pb-11">
-                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios@2x.png 2x" alt="Imagen representativa de Estadisticas"></div>
+                        <div class="col-lg-6 order-1 order-lg-0" data-aos=slide-right><img class="img-fluid mt-6 mt-lg-0" width=632 height=576 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/servicios@2x.png 2x" alt="Imagen representativa de Estadisticas"></div>
                         <div class="col-lg-6 order-0 order-lg-1">
                             <p class="text-tertiary fw-bold">| Servicios</p>
                             <h3>Planificación y gestión de patrimonio para hacer crecer tus activos</h3>
@@ -372,25 +372,32 @@
             <section class="container-fluid bg-light roundend-top-right py-11" id=caso-real>
                 <div class=container>
                     <div class=row>
-                        <div class=col-lg-4>
+                        <div class=col-lg-6>
                             <p class="text-tertiary fw-bold">| Caso real</p>
                             <h3>Portafolio modelo</h3>
-                            <p class=mb-9>Invertir en lugar de solo ahorrar puede incrementar significativamente su patrimonio a largo plazo. En un gráfico comparativo, la línea gris muestra el crecimiento de un ahorro sin inversión, mientras que la línea azul refleja el aumento al invertir en la bolsa. A lo largo de una vida, invertir puede resultar en un patrimonio hasta 4 veces mayor que solo ahorrar. Esto se debe al poder de la capitalización compuesta: al invertir a un 7.2% anual, su capital se duplica en 10 años.</p>
-                            <blockquote class=blockquote>
+                            <p class=mb-0>Invertir en lugar de solo ahorrar puede incrementar significativamente su patrimonio a largo plazo. En un gráfico comparativo, la línea gris muestra el crecimiento de un ahorro sin inversión, mientras que la línea azul refleja el aumento al invertir en la bolsa. A lo largo de una vida, invertir puede resultar en un patrimonio hasta 4 veces mayor que solo ahorrar. Esto se debe al poder de la capitalización compuesta: al invertir a un 7.2% anual, su capital se duplica en 10 años.</p>
+                        </div>
+                        <div class=col-lg-6 data-aos=slide-left><img class="img-fluid mt-6 mt-lg-0" width=632 height=544 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo@2x.png 2x" alt="Imagen representativa de Portafolio Modelo"></div>
+                    </div>
+                    <div class=row>
+                        <div class=col-lg-6 data-aos=slide-right>
+                            <h5 class="mt-6 mt-lg-0">Financial Instrument Allocation</h5><img class=img-fluid width=632 height=544 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo-2.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo-2.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo-2@2x.png 2x" alt="Imagen representativa de Portafolio Modelo">
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <blockquote class="blockquote mt-6 mt-lg-0">
                                 <div class=d-flex style=margin-top:-1rem><svg width=64 height=64 viewBox="0 0 64 64" fill=none xmlns=http://www.w3.org/2000/svg aria-hidden=true>
                                         <path d="M12.2224 46.1896C9.47509 43.2731 8 40 8 34.6941C8 25.3623 14.5507 16.9964 24.0816 12.8618L26.4621 16.5354C17.5681 21.3477 15.8298 27.5893 15.135 31.5253C16.567 30.7848 18.4415 30.5243 20.2792 30.6947C25.0909 31.1408 28.8832 35.0907 28.8832 40C28.8832 45.1547 24.7044 49.3333 19.5498 49.3333C16.6883 49.3333 13.9519 48.0253 12.2224 46.1896ZM38.8891 46.1896C36.1419 43.2731 34.6667 40 34.6667 34.6941C34.6667 25.3623 41.2173 16.9964 50.7483 12.8618L53.1288 16.5354C44.2347 21.3477 42.4965 27.5893 41.8016 31.5253C43.2336 30.7848 45.1083 30.5243 46.9459 30.6947C51.7576 31.1408 55.5499 35.0907 55.5499 40C55.5499 45.1547 51.3712 49.3333 46.2165 49.3333C43.3549 49.3333 40.6187 48.0253 38.8891 46.1896Z" fill=#09203D></path>
                                     </svg></div>
                                 <p class=ms-3>Un portafolio moderado equilibra rendimientos y riesgos. Balancea la asignación de renta fija (entre 40% y 65%) y variable, según el perfil de riesgo del cliente y el contexto de mercado.</p>
                             </blockquote>
                         </div>
-                        <div class=col-lg-8 data-aos=slide-left><img class="img-fluid mt-6 mt-lg-0" src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/portafolio-modelo@2x.png 2x" alt="Imagen representativa de Portafolio Modelo"></div>
                     </div>
                 </div>
             </section>
-            <section class="container-fluid bg-secondary py-11" id=agendar-cita style="background-image: url('../../assets/images/cita.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
+            <section class="container-fluid bg-secondary py-11 pb-lg-0" id=agendar-cita style="background-image: url('../assets/images/cita.webp');background-repeat: no-repeat;background-position: center;background-size: cover;">
                 <div class=container>
                     <div class=row>
-                        <div class=col-lg-5><svg class=mb-3 width=64 height=64 viewBox="0 0 64 64" fill=none xmlns=http://www.w3.org/2000/svg aria-hidden=true>
+                        <div class=col-lg-6><svg class=mb-3 width=64 height=64 viewBox="0 0 64 64" fill=none xmlns=http://www.w3.org/2000/svg aria-hidden=true>
                                 <path d="M46.0416 8.12492H56.875C58.3708 8.12492 59.5833 9.33749 59.5833 10.8333V54.1666C59.5833 55.6624 58.3708 56.8749 56.875 56.8749H8.12496C6.6292 56.8749 5.41663 55.6624 5.41663 54.1666V10.8333C5.41663 9.33749 6.6292 8.12492 8.12496 8.12492H18.9583V2.70825H24.375V8.12492H40.625V2.70825H46.0416V8.12492ZM10.8333 24.3749V51.4583H54.1666V24.3749H10.8333ZM16.25 29.7916H21.6666V35.2083H16.25V29.7916ZM29.7916 29.7916H35.2083V35.2083H29.7916V29.7916ZM43.3333 29.7916H48.75V35.2083H43.3333V29.7916Z" fill=#05C9D9></path>
                             </svg>
                             <h2 class=text-white>Agendá tu cita personalizada</h2>
@@ -423,7 +430,7 @@
 
                             </script>
                         </div>
-                        <div class=col-lg-7 data-aos=slide-left></div>
+                        <div class="col-lg-6 d-none d-lg-flex" data-aos=slide-left><img class="img-fluid mt-6 mt-lg-0" width=632 height=640 src=https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/agenda.webp srcset="https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/agenda.webp, https://estudiohybris.github.io/asesor-de-inversiones/dist/assets/images/agenda@2x.png 2x" alt="Imagen representativa de Cita presencial"></div>
                     </div>
                 </div>
             </section>
@@ -524,6 +531,9 @@
                                 <li class=nav-item><span class=text-white>Approved Investment Manager Licensed by</span><a class="text-primary ms-1" href=https://www.bvifsc.vg/regulated-entities/asesordeinversionescom-ltd title="Ir a BVI FSC" target=_blank rel="noopener noreferrer" aria-label="BVI FSC Regulatory Information">BVI FSC</a></li>
                             </ul>
                         </div>
+                        <div class=col-12>
+                            <p class=text-white>Disclosure: está autorizado y regulado en las Islas Vírgenes Británicas por la Comisión de Servicios Financieros de las Islas Vírgenes Británicas. Licencia No. IBR/AIM/24/1048.</p>
+                        </div>
                     </div>
                     <div class="row py-3 border-top border-dark">
                         <div class="col d-flex justify-content-center"><small class="text-white mb-0">© 2024 Asesor de inversiones - Todos los derechos reservados.</small></div>
@@ -535,4 +545,4 @@
                     </svg></a></div>
         </main>
         <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js> </script> <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js integrity=sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy crossorigin=anonymous></script>
-        <script type=text/javascript src=../../vendors~main.23fe923d86ed4a1142d8.bundle.js> </script> <script type=text/javascript src=../../main.fd8d7f21929d37c9f541.bundle.js> </script> </body> </html>
+        <script type=text/javascript src=js/vendors~main.bundle.js> </script> <script type=text/javascript src=js/main.bundle.js> </script> </body> </html>
