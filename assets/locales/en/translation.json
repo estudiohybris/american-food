@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "whyChooseUs": "Why Choose Us",
+    "products": "Products",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "heading": {
+    "title": "Connecting foods from South America with the world",
+    "description": "Your strategic ally in foreign trade"
+  },
+  "box-1": {
+    "title": "Agriculture and Aquaculture",
+    "description": "World-class, certified, and sustainable agricultural and aquaculture products."
+  },
+  "box-2": {
+    "title": "Purchasing Agent",
+    "description": "We offer a direct network of regional suppliers."
+  }
+
+}

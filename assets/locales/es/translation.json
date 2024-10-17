@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "whyChooseUs": "Por qué elegirnos",
+    "products": "Productos",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "heading": {
+    "title": "Conectando alimentos de Sudamérica con el mundo",
+    "description": "Tu aliado estratégico en comercio exterior"
+  },
+  "box-1": {
+    "title": "Agricultura y acuicultura",
+    "description": "Productos agrícolas y acuícolas de calidad mundial, certificados y sostenibles."
+  },
+  "box-2": {
+    "title": "Agente de compras",
+    "description": "Ofrecemos red de contactos de proveedores de la región de manera directa."
+  }
+}
