@@ -1,22 +1,127 @@
 {
   "navbar": {
     "home": "Inicio",
-    "about": "Nosotros",
+    "aboutUs": "Nosotros",
     "whyChooseUs": "Por qué elegirnos",
     "products": "Productos",
     "certifications": "Certificaciones",
     "contact": "Contacto"
   },
-  "heading": {
-    "title": "Conectando alimentos de Sudamérica con el mundo",
-    "description": "Tu aliado estratégico en comercio exterior"
+  "heroSection": {
+    "title": "Desde Sudamérica, proveemos alimentos al mundo",
+    "items": {
+      "item1": {
+        "title": "Trayectoria y experiencia",
+        "description": "Desde 2009 proveyendo y exportando alimentos de primera calidad."
+      },
+      "item2": {
+        "title": "Agente de compras",
+        "description": "Ofrecemos red de contactos de proveedores de la región de manera directa."
+      }
+    }
   },
-  "box-1": {
-    "title": "Agricultura y acuicultura",
-    "description": "Productos agrícolas y acuícolas de calidad mundial, certificados y sostenibles."
+  "dataSection": {
+    "data1": {
+      "number": "15+",
+      "description": "Años de experiencia"
+    },
+    "data2": {
+      "number": "40+",
+      "description": "Productos certificados"
+    },
+    "data3": {
+      "number": "5.000+",
+      "description": "Transacciones exitosas"
+    },
+    "data4": {
+      "number": "10+",
+      "description": "Países exportados"
+    }
   },
-  "box-2": {
-    "title": "Agente de compras",
-    "description": "Ofrecemos red de contactos de proveedores de la región de manera directa."
+  "aboutUsSection": {
+    "title": "Nosotros",
+    "subtitle": "Confianza, sostenibilidad y compromiso en cada operación",
+    "description":  "American Trading Foods ofrece una amplia gama de alimentos de calidad que abarca desde productos lácteos y carnes hasta frutas y productos pesqueros, garantizamos calidad y cumplimiento con las normativas más exigentes."
+  },
+  "partnerSection": {
+    "text": "Somos tu socio estratégico en comercio internacional",
+    "button": "Realiza tu consulta"
+  },
+  "whyChooseUsSection": {
+    "title": "Por qué elegirnos",
+    "items": {
+      "item1": {
+        "title": "Confianza, sostenibilidad y compromiso en cada operación",
+        "description": "El equipo de American Trading Foods está compuesto por profesionales con amplia experiencia en logística, trading de alimentos y materias primas."
+      },
+      "item2": {
+        "title": "Comercialización y logística",
+        "description": "La trazabilidad para logística y cadena de suministro sigue los mismos principios que la Certificación Orgánica. Todo el proceso, desde que se adquiere el producto en origen hasta la entrega final se encuentra debidamente documentado a cada paso, supervisando a cada interlocutor que participe del proceso para asegurar la correcta trazabilidad en cada paso."
+      },
+      "item3": {
+        "title": "Certificaciones y estándares de calidad internacional",
+        "description": "Trabajamos con los mas altos estándares en materia de certificaciones internacionales."
+      }
+    }
+  },
+  "productsSection": {
+    "title": "Productos",
+    "subtitle1": "Optimizamos tu proceso de exportación, asegurando calidad, eficiencia y cumplimiento en cada etapa",
+    "productCategories": {
+      "category1": {
+        "title": "Alimentos y productos agrícolas",
+        "description": "Productos agrícolas, lácteos, vinos, carnes, pescados, frutos secos y semillas orgánicas de calidad, certificados y sostenibles."
+      },
+      "category2": {
+        "title": "Consultoría y asesoramiento de productos",
+        "description": "Ofrecemos asesoría experta en exportación de productos alimentarios, optimizando procesos y cumpliendo con las normativas internacionales."
+      },
+      "category3": {
+        "title": "Proveedores",
+        "description": "Gracias a nuestra red de proveedores confiables, aseguramos una cadena de suministro eficiente, transparente y segura en cada etapa del proceso de exportación."
+      },
+      "category4": {
+        "title": "Logística y distribución",
+        "description": "Integramos una amplia red de agentes, gestionamos la logística internacional de forma profesional, supervisando puntos críticos y reduciendo tiempos y costos de entrega."
+      }
+    },
+    "subtitle2": "Contamos con una selección de productos de alta calidad listos para conquistar los mercados internacionales",
+    "specificProducts": {
+      "product1": {
+        "title": "Carnes & pesca",
+        "description": "Carne de res, cordero y productos pesqueros frescos, cumpliendo normas internacionales."
+      },
+      "product2": {
+        "title": "Lácteos",
+        "description": "Leche en polvo y productos lácteos certificados, frescos y confiables."
+      },
+      "product3": {
+        "title": "Frutos secos",
+        "description": "Almendras, nueces, pistachos en sus distintas presentaciones."
+      },
+      "product4": {
+        "title": "Vinos",
+        "description": "Vinos premium, garantizando calidad y autenticidad."
+      }
+    }
+  },
+  "certificationsSection": {
+    "title": "Certificaciones",
+    "subtitle": "Comprometidos con la excelencia y seguridad",
+    "description": "Nuestras certificaciones garantizan que todos los productos cumplen con los más altos estándares internacionales de calidad, seguridad alimentaria y bienestar animal, asegurando una exportación responsable y confiable."
+  },
+  "marketsSection": {
+    "text": "Europa, Medio Oriente, Asia y Centro América son algunos de los mercados con los que trabajamos",
+    "button": "Contáctanos"
+  },
+  "contactsSection": {
+    "title": "Contáctanos",
+    "subtitle": "Con American Trading Foods conseguirás lo mejor en alimentos de Sudamérica hacia el mundo",
+    "form": {
+      "input1": "Nombre",
+      "input2": "Correo electronico",
+      "input3": "Mensaje",
+      "button": "Enviar mensaje"
+    }
   }
 }

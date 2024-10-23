@@ -1,23 +1,127 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About Us",
+    "aboutUs": "About Us",
     "whyChooseUs": "Why Choose Us",
     "products": "Products",
     "certifications": "Certifications",
     "contact": "Contact"
   },
-  "heading": {
-    "title": "Connecting foods from South America with the world",
-    "description": "Your strategic ally in foreign trade"
+  "heroSection": {
+    "title": "From South America, we supply food to the world",
+    "items": {
+      "item1": {
+        "title": "Trajectory and experience",
+        "description": "World-class, certified, and sustainable agricultural and aquaculture."
+      },
+      "item2": {
+        "title": "Purchasing agent",
+        "description": "We offer a direct network of regional suppliers."
+      }
+    }
   },
-  "box-1": {
-    "title": "Agriculture and Aquaculture",
-    "description": "World-class, certified, and sustainable agricultural and aquaculture products."
+  "dataSection": {
+    "data1": {
+      "number": "15+",
+      "description": "Years of experience"
+    },
+    "data2": {
+      "number": "40+",
+      "description": "Certified products"
+    },
+    "data3": {
+      "number": "5.000+",
+      "description": "Successful transactions"
+    },
+    "data4": {
+      "number": "10+",
+      "description": "Countries exported"
+    }
   },
-  "box-2": {
-    "title": "Purchasing Agent",
-    "description": "We offer a direct network of regional suppliers."
+  "aboutUsSection": {
+    "title": "About Us",
+    "subtitle": "Trust, sustainability, and commitment in every operation",
+    "description":  "American Trading Foods offers a wide range of quality foods, from dairy products and meats to fruits and seafood. We guarantee quality and compliance with the most demanding regulations."
+  },
+  "partnerSection": {
+    "text": "We are your strategic partner for your international food business",
+    "button": "Get a quote"
+  },
+  "whyChooseUsSection": {
+    "title": "Why Choose Us",
+    "items": {
+      "item1": {
+        "title": "Trust, sustainability, and commitment in every operation",
+        "description": "The American Trading Foods team is made up of professionals with extensive experience in logistics, food trading, and raw materials."
+      },
+      "item2": {
+        "title": "Commercialization and logistics",
+        "description": "Logistics and supply chain traceability follow the same principles as Organic Certification. The entire process, from acquiring the product at its origin to delivering the final product, is documented and controlled step by step, ensuring that each stakeholder involved in the process guarantees proper traceability in each link."
+      },
+      "item3": {
+        "title": "International certifications and quality standards",
+        "description": "We work with the highest standards in international certifications."
+      }
+    }
+  },
+  "productsSection": {
+    "title": "Products",
+    "subtitle1": "We optimize your buying process, ensuring quality, efficiency, and compliance at every stage",
+    "productCategories": {
+      "category1": {
+        "title": "Food and agricultural products",
+        "description": "Agricultural products, dairy products, wines, meats, fish, nuts, and organic seeds of high quality, certified and sustainable."
+      },
+      "category2": {
+        "title": "Product consulting and advising",
+        "description": "We offer expert consulting in the export of food products, optimizing processes and ensuring compliance with international regulations."
+      },
+      "category3": {
+        "title": "Suppliers",
+        "description": "Thanks to our network of reliable suppliers, we ensure an efficient, transparent, and secure supply chain at every stage of the export process."
+      },
+      "category4": {
+        "title": "Logistics and distribution",
+        "description": "We integrate a wide network of agents, professionally managing international logistics, supervising critical points, and reducing delivery times and costs."
+      }
+    },
+    "subtitle2": "We have a selection of high-quality products ready to conquer international markets",
+    "specificProducts": {
+      "product1": {
+        "title": "Meat & seafood",
+        "description": "Quality beef, lamb, and seafood products, meeting international standards."
+      },
+      "product2": {
+        "title": "Dairy",
+        "description": "Certified, fresh, and reliable powdered milk and dairy products."
+      },
+      "product3": {
+        "title": "Nuts",
+        "description": "Almonds, walnuts, pistachios in their various forms."
+      },
+      "product4": {
+        "title": "Wine",
+        "description": "Premium wines, ensuring quality and authenticity."
+      }
+    }
+  },
+  "certificationsSection": {
+    "title": "Certifications",
+    "subtitle": "Committed to excellence and safety",
+    "description": "Our certifications ensure that all products meet the highest international standards for quality, food safety, and animal welfare, guaranteeing responsible and reliable exportation."
+  },
+  "marketsSection": {
+    "text": "Europe, the Middle East, Asia, and Central America are some of the markets we work with",
+    "button": "Contact us"
+  },
+  "contactsSection": {
+    "title": "Contact us",
+    "subtitle": "Turn to American Trading Foods for the best South American foods delivered to the world",
+    "form": {
+      "input1": "Name",
+      "input2": "Email",
+      "input3": "Message",
+      "button": "Send message"
+    }
   }
-
 }
