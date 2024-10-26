@@ -123,5 +123,8 @@
       "input3": "Mensaje",
       "button": "Enviar mensaje"
     }
+  },
+  "footerSection": {
+    "copy": "© 2024 American Trading Foods - Todos los derechos reservados."
   }
 }
